@@ -1,25 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-  
-<!-- Mirrored from razonartificial.com/themes/material-style/1.1/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Jan 2017 13:55:17 GMT -->
-<head>
+<html lang="fr">
+    
+
+ <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="theme-color" content="#333">
     <title>Angélie</title>
-    <meta name="description" content="Material Style Theme">
-    <link rel="shortcut icon" href="assets/img/favicon3860.png?v=1">
+    <meta name="description" content="Angélie">
+    <link rel="shortcut icon" href="assets/img/angélie2.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="assets/css/preload.min.css" />
     <link rel="stylesheet" href="assets/css/plugins.min.css" />
     <link rel="stylesheet" href="assets/css/style.light-blue-500.min.css" />
     <link rel="stylesheet" href="assets/css/width-boxed.min.css" id="ms-boxed" disabled="">
-    <!--[if lt IE 9]>
-        <script src="assets/js/html5shiv.min.js"></script>
-        <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+    
   </head>
   <body>
     <a href="javascript:void(0)" class="ms-conf-btn ms-configurator-btn btn-circle btn-circle-raised btn-circle-primary animated rubberBand">
@@ -199,8 +196,8 @@
                 </span>
               </button>
               <div class="modal-title text-center">
-                <span class="ms-logo ms-logo-white ms-logo-sm mr-1">M</span>
-                <h3 class="no-m ms-site-title">Material
+                <span class="ms-logo ms-logo-white ms-logo-sm mr-1">A</span>
+                <h3 class="no-m ms-site-title">Angelie
                   <span>Style</span>
                 </h3>
               </div>
@@ -339,8 +336,8 @@
             <a href="index-2.html">
               <!-- <img src="assets/img/demo/logo-header.png" alt=""> -->
               <span class="ms-logo animated zoomInDown animation-delay-5">M</span>
-              <h1 class="animated fadeInRight animation-delay-6">Material
-                <span>Style</span>
+              <h1 class="animated fadeInRight animation-delay-6">Angélie
+                <span>Angélie</span>
               </h1>
             </a>
           </div>
@@ -2215,5 +2212,5 @@
     <script src="assets/js/index.js"></script>
   </body>
 
-<!-- Mirrored from razonartificial.com/themes/material-style/1.1/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Jan 2017 13:55:18 GMT -->
+<!-- Mirrored from razonartificial.com/themes/material-style/1.1/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Jan 2017 13:53:01 GMT -->
 </html>
