@@ -7,56 +7,43 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<title>Angélie Acceuil</title>
+		<title>Angélie acceuil</title>
 		<meta name="description" content="Angélie">
-		<link rel="shortcut icon" href="img/angélie.png">
+		<link rel="shortcut icon" href="img/favicon.ico">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="css/preload.min.css" />
 		<link rel="stylesheet" href="css/plugins.min.css" />
 		<link rel="stylesheet" href="css/style.light-blue-500.min.css" />
 		<link rel="stylesheet" href="css/width-boxed.min.css" id="ms-boxed" disabled="">
 		<script src="js/plugins.min.js"></script>
-	    <script src="js/app.min.js"></script>
-	    <script src="js/configurator.min.js"></script>
-	    <script src="js/index.js"></script>
-	</head>
-
-<!-- header -->
+		<script src="js/app.min.js"></script>
+		<script src="js/index.js"></script></head>
 
 	<body>
+        <!-- banner -->
+		<style>
+			header{
+				background-image: url('img/bg-slidebar.png');
+				background-size: cover;}
+		</style>
+			
 
 		<header class="ms-header ms-header-primary">
-		<div class="container container-full">
+		<div  class="container container-full">
 			<div class="ms-title">
 				<a href="index.html">
-					<img src="img/logo5.jpg" alt="">
+					<img src="img/ardor2.png" alt="">
 					<h1 class="animated fadeInRight animation-delay-6"><span>Angélie</span></h1>
 				</a>
 			</div>
 			<div class="header-right">
-				<div class="share-menu">
-					<ul class="share-menu-list">
-						<li class="animated fadeInRight animation-delay-3">
-							<a href="javascript:void(0)" class="btn-circle btn-google"><i class="zmdi zmdi-google"></i></a>
-						</li>
-						<li class="animated fadeInRight animation-delay-2">
-							<a href="javascript:void(0)" class="btn-circle btn-facebook"><i class="zmdi zmdi-facebook"></i></a>
-						</li>
-						<li class="animated fadeInRight animation-delay-1">
-							<a href="javascript:void(0)" class="btn-circle btn-twitter"><i class="zmdi zmdi-twitter"></i></a>
-						</li>
-					</ul>
-					<a href="javascript:void(0)" class="btn-circle btn-circle-primary animated zoomInDown animation-delay-7"><i class="zmdi zmdi-share"></i></a>
-				</div>
-				<a href="javascript:void(0)" class="btn-circle btn-circle-primary no-focus animated zoomInDown animation-delay-8" data-toggle="modal" data-target="#ms-account-modal"><i class="zmdi zmdi-account"></i></a>
+
 				<a href="javascript:void(0)" class="btn-ms-menu btn-circle btn-circle-primary sb-toggle-left animated zoomInDown animation-delay-10"><i class="zmdi zmdi-menu"></i></a>
 			</div>
 		</div>
-		</div>
-	</header>
-
-	<!-- header reduit -->
-
+		</div></header>
+		<!-- banner fixe -->
+		
 	<nav class="navbar navbar-static-top yamm ms-navbar ms-navbar-primary">
 		<div class="container container-full">
 			<div class="navbar-header">
@@ -64,23 +51,31 @@
 					<span class="ms-logo ms-logo-sm">A</span>
 					<span class="ms-title"><strong>Angélie</strong></span>
 				</a>
-		    </div>
-	    </div>
-		   <div id="navbar" class="navbar-collapse collapse">	
-		<a href="javascript:void(0)" class="sb-toggle-left btn-navbar-menu"><i class="zmdi zmdi-menu"></i></a>
-		   </div>
-	</nav>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+			</div>	
+					<!-- navbar-collapse collapse -->
+					
+					<a href="javascript:void(0)" class="sb-toggle-left btn-navbar-menu"><i class="zmdi zmdi-menu"></i></a>
+				</div>
+			</nav>
 		</div>
 	</div>
 
-	<!-- menu lateral -->
+	<!-- menu latéral -->
 
-    <div class="ms-slidebar sb-slidebar sb-left sb-momentum-scrolling sb-style-overlay"><header class="ms-slidebar-header">
-	<div class="ms-slidebar-login"><a href="javascript:void(0)" class="withripple">
+<div class="btn-back-top"><a href="#" data-scroll id="back-top" class="btn-circle btn-circle-primary btn-circle-sm btn-circle-raised ">
+	<i class="zmdi zmdi-long-arrow-up"></i>
+	</a>
+	</div>
+	</div>
+	
+	<div class="ms-slidebar sb-slidebar sb-left sb-momentum-scrolling sb-style-overlay"><header class="ms-slidebar-header">
+	<div class="ms-slidebar-login"><a target="_blank" href="espace-client.html" class="withripple">
 	<i class="zmdi zmdi-account"></i>
 	Connexion
 	</a>
-	<a href="javascript:void(0)" class="withripple"><i class="zmdi zmdi-account-add">
+	<a target="_blank" href="espace-client.html" class="withripple"><i class="zmdi zmdi-account-add">
 	</i>
 	 S'enregister
 	</a>
@@ -99,39 +94,43 @@
 	<ul class="ms-slidebar-menu" id="slidebar-menu" role="tablist" aria-multiselectable="true"><li class="panel" role="tab" id="sch1">
 	<a class="collapsed" role="button" data-toggle="collapse" data-parent="#slidebar-menu" href="#sc1" aria-expanded="false" aria-controls="sc1"><i class="zmdi zmdi-home">
 	</i>
-	Acceuil 
-</a>
-<ul id="sc1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sch1">
-<li><a href="Particuliers.html" target="_blank">Particuliers</a></li>
-<li><a href="professionnels.html" target="_blank">Associatif et Professionnel</a></li>
-<li><a href="e-commerce" target="_blank">E-Commerce</a></li>
-<li><a href="espace-client.html" target="_blank">Espace Client</a></li>
-<li><a href="porfolio.html" target="_blank">porfolio</a></li>
-<li><a href="mention-legales" target="_blank">Mentions légales</a></li>
-<li><a href="contact.html" target="_blank">Nous contacter</a>
+	 Acceuil 
+	</a>
+	<ul id="sc1" class="panel" role="tabpanel" aria-labelledby="sch1">
+	<li><a target="_blank" href="particuliers.html">Particuliers</a></li>
+	<li><a target="_blank" href="professionnels.html">Associatif et Professionnel</a></li>
+	<li><a target="_blank" href="e-commerce.html">E-Commerce</a></li>
+	<li><a target="_blank" href="espace-client.html">Espace Client</a></li>
+	<li><a target="_blank" href="contact.html">Nous contacter</a></li>
+	<li><a target="_blank" href="mention-legales.html">Mentions légales</a></li>
+	</ul>
+	</li>
 	
-<div class="ms-slidebar-social ms-slidebar-block"><h4 class="ms-slidebar-block-title">
-Réseaux sociaux
-</h4>
-<div class="ms-slidebar-social"><a href="https://www.facebook.com/" target="_blank" class="btn-circle btn-circle-raised btn-facebook">
-<i class="zmdi zmdi-facebook"></i>
-<div class="ripple-container"></div>
-</a>
-<a href="https://twitter.com/)" target="_blank" class="btn-circle btn-circle-raised btn-twitter"><i class="zmdi zmdi-twitter">
-</i>
-<div class="ripple-container"></div>
-</a>
-<a href="https://www.google.fr/" target="_blank" class="btn-circle btn-circle-raised btn-google"><i class="zmdi zmdi-google">
-</i>
-<div class="ripple-container"></div>
-</a>
-<a href="https://www.instagram.com/" target="_blank" class="btn-circle btn-circle-raised btn-instagram"><i class="zmdi zmdi-instagram">
-</i>
-<div class="ripple-container"></div>
-</a>
-</div>
-</div>
-</div>
+	<div class="ms-slidebar-social ms-slidebar-block"><h4 class="ms-slidebar-block-title">
+	Réseaux sociaux
+	</h4>
+	<div class="ms-slidebar-social">
+	<a target="_blank" href="https://www.facebook.com/" class="btn-circle btn-circle-raised btn-facebook">
+	<i class="zmdi zmdi-facebook"></i>
+	<div class="ripple-container"></div>
+	</a>
+	<a target="_blank" href="https://twitter.com/" class="btn-circle btn-circle-raised btn-twitter"><i class="zmdi zmdi-twitter">
+	</i>
+	<div class="ripple-container"></div>
+	</a>
+	<a target="_blank" href="https://www.google.com/" class="btn-circle btn-circle-raised btn-google"><i class="zmdi zmdi-google">
+	</i>
+	<div class="ripple-container"></div>
+	</a>
+	<a target="_blank" href="https://www.instagram.com/" class="btn-circle btn-circle-raised btn-instagram"><i class="zmdi zmdi-instagram">
+	</i>
+	<div class="ripple-container"></div>
+	</a>
+	</div>
+	</div>
+	</div>
+</nav>
+
 	<!-- block 1 -->
 	<div class="wrap wrap-mountain mt-6">
 		<div class="container">
@@ -154,8 +153,8 @@ Réseaux sociaux
             Web Design Développement: Nous mettons toutes nos compétences à contribution pour vous proposer des solutions Web les plus adaptées à votre entreprise.
 					</p>
 					<div class="text-center">
-						<a href="javascript:void(0)" class="btn btn-warning btn-raised mr-1 wow flipInX animation-delay-14"><i class="zmdi zmdi-chart-donut"></i> Particuliers </a>
-						<a href="javascript:void(0)" class="btn btn-info btn-raised wow flipInX animation-delay-16"><i class="zmdi zmdi-case"></i> Professionnels</a>
+						<a target="_blank" href="particuliers.html" class="btn btn-warning btn-raised mr-1 wow flipInX animation-delay-14"><i class="zmdi zmdi-chart-donut"></i> Particuliers </a>
+						<a target="_blank" href="professionnels.html" class="btn btn-info btn-raised wow flipInX animation-delay-16"><i class="zmdi zmdi-case"></i> Professionnels</a>
 					</div>
 				</div>
 			</div>
@@ -163,15 +162,13 @@ Réseaux sociaux
  
 </div>
 
-<ul><h4>null</h4></ul> 
-
-<!-- block2 -->
+<ul><h4>test</h4></ul> 
 <div class="ms-hero ms-hero-material"><span class="ms-hero-bg"></span>
 <div class="container">
 	<div class="col-lg-6 col-md-7">
 		<div id="carousel-hero" class="carousel slide carousel-fade" data-ride="carousel" data-interval="8000">
 
-			
+			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
 					<div class="carousel-caption">
@@ -336,11 +333,9 @@ Réseaux sociaux
 		</div>
 	</div>
 </div>
-
+<!-- container -->
 </div>
-
-<!-- block 3 -->
-
+<!-- ms-hero ms-hero-black -->
 <div class="container mt-4"><h2 class="text-center color-primary mb-2 wow fadeInDown animation-delay-4">
 	Nos interventions en détail
 </h2>
@@ -389,9 +384,7 @@ Réseaux sociaux
 </div>
 </div>
 </div>
-
-<!-- block 4 -->
-
+<!-- container -->
 <div class="container mt-6"><div class="text-center mb-4">
 <h2 class="uppercase color-primary">Exemples Tarifaires</h2>
 <p class="lead uppercase">
@@ -453,11 +446,7 @@ Réseaux sociaux
 </div>
 </div>
 </div>
-</div>
-
-<!-- block 5 -->
-
-<div class="container mt-6"><h2 class="text-center color-primary mb-4">
+</div><div class="container mt-6"><h2 class="text-center color-primary mb-4">
 Nos derniers travaux
 </h2>
 <div class="owl-dots"></div>
@@ -580,40 +569,43 @@ Nos derniers travaux
 </div>
 </div>
 </div>
-</div>
-
-<!-- footer -->
-
-<aside class="ms-footbar"><div class="container">
-<div class="row"><div class="col-md-4 ms-footer-col">
+</div><aside class="ms-footbar"><div class="container">
+<div class="row"><div class="col-md ms-footer-col">
 	<div class="ms-footbar-block">
 		<h3 class="ms-footbar-title">Plan du site</h3>
 		<ul class="list-unstyled ms-icon-list three_cols">
 			<li>
-				<a href="espace-client.html"><i class="zmdi zmdi-lock"></i>Login</a>
+				<a target="_blank" href="particuliers.html"><i class="zmdi zmdi-home"></i>Particuliers</a>
 			</li>
 			<li>
-				<a href="particuliers.html"><i class="zmdi zmdi-home"></i>Particulier</a>
-			</li>
-            <li>
-				<a href="professionnels.html"><i class="zmdi zmdi-case"></i>Pro</a>
-            </li>
-            <li>
-                <a href="e-commerce.html"><i class="zmdi zmdi-money"></i> Boutique</a>
-            </li>
-			<li>
-				<a href="tarification.html"><i class="zmdi zmdi-edit"></i> Nos Tarifs</a>
+				<a target="_blank" href="tarification.html"><i class="zmdi zmdi-edit"></i> Nos Tarifs</a>
 			</li>
 			<li>
-				<a href="porfolio.html"><i class="zmdi zmdi-image-o"></i> Porfolio</a>
+				<a target="_blank" href="porfolio.html"><i class="zmdi zmdi-image-o"></i> Porfolio</a>
 			</li>
 			<li>
-				<a href="contact.html"><i class="zmdi zmdi-email"></i> Contact</a>
+				<a target="_blank" href="professionnels.html"><i class="zmdi zmdi-case"></i>Pro</a>
+			</li>
+
+			<li>
+				<a target="_blank" href="e-commerce.html"><i class="zmdi zmdi-money"></i> Boutique</a>
+			</li>
+			
+			<li>
+				<a target="_blank" href="espace-client.html"><i class="zmdi zmdi-lock"></i> Connexion</a>
+			</li>
+			<li>
+				<a target="_blank" href="contact.html"><i class="zmdi zmdi-email"></i> Contact</a>
 			</li>
 		</ul>
 	</div>
-
+	
+	</div>
 </div>
+
+<!-- footer -->
+
+
 <div class="col-md-5 col-sm-7 ms-footer-col ms-footer-alt-color">
 	<div class="ms-footbar-block">
 		<h3 class="ms-footbar-title text-center mb-2">Articles Récents</h3>
@@ -632,10 +624,8 @@ Nos derniers travaux
 			</div>
 			<div class="media-body">
 				<i class="media-heading">
-					<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=https%3A%2F%2Fwww.lesnumeriques.com%2Frss-news.xml&chan=y&num=3&utf=y"  charset="UTF-8" type="text/javascript"></script>
-					<noscript>
-						<a href="http://feed2js.org//feed2js.php?src=https%3A%2F%2Fwww.lesnumeriques.com%2Frss-news.xml&chan=y&num=3&utf=y&html=y">View RSS feed</a>
-					</noscript>
+					<iframe src="https://feed.mikle.com/widget/v2/16484/" height="150" frameborder="0" scrolling="no"></iframe>
+					
 				</i>
 			</div>
 		</div>
@@ -680,7 +670,9 @@ Nos derniers travaux
 			<a href="https://www.facebook.com" target="_blank" class="btn-circle btn-facebook"><i class="zmdi zmdi-facebook"></i></a>
 			<a href="https://www.twitter.com" target="_blank" class="btn-circle btn-twitter"><i class="zmdi zmdi-twitter"></i></a>
 			<a href="https://www.youtube.com" target="_blank" class="btn-circle btn-youtube"><i class="zmdi zmdi-youtube"></i></a>
+			<br>
 			<a href="https://www.google.com" target="_blank" class="btn-circle btn-google"><i class="zmdi zmdi-google"></i></a>
+			<a href="https://www.instagram.com" target="_blank" class="btn-circle btn-instagram"><i class="zmdi zmdi-instagram"></i></a>
 			<a href="https://www.github.com" target="_blank" class="btn-circle btn-github"><i class="zmdi zmdi-github"></i></a>
 		</div>
 	</div>
@@ -694,10 +686,7 @@ Nos derniers travaux
 </div>
 </footer>
 
-<!-- retour top -->
-<div class="btn-back-top"><a href="#" data-scroll id="back-top" class="btn-circle btn-circle-primary btn-circle-sm btn-circle-raised ">
-<i class="zmdi zmdi-long-arrow-up"></i></a>
-</div>
+
 
 
 </body>

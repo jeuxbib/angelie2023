@@ -8580,7 +8580,7 @@ label.color-white {
 }
 
 .ms-header .ms-title img {
-    margin: 15px 20px 0 0
+    margin: 15px 30px 0 0
 }
 
 .ms-header .ms-title .ms-logo {
@@ -8866,20 +8866,20 @@ label.color-white {
 
 .ms-header.ms-header-primary .ms-logo {
     color: #03a9f4;
-    background-color: #fff;
+    background-color: #3241C5;
     text-shadow: 1px 1px 0 rgba(3, 169, 244, .04), 1px 2px 0 rgba(3, 169, 244, .04), 1px 3px 0 rgba(3, 169, 244, .04), 2px 4px 0 rgba(3, 169, 244, .04), 3px 5px 0 rgba(3, 169, 244, .04), 4px 6px 0 rgba(3, 169, 244, .04), 5px 7px 0 rgba(3, 169, 244, .04), 6px 8px 0 rgba(3, 169, 244, .04), 7px 9px 0 rgba(3, 169, 244, .04), 8px 10px 0 rgba(3, 169, 244, .04), 9px 11px 0 rgba(3, 169, 244, .04), 10px 12px 0 rgba(3, 169, 244, .04), 11px 13px 0 rgba(3, 169, 244, .04), 12px 14px 0 rgba(3, 169, 244, .04), 13px 15px 0 rgba(3, 169, 244, .04), 14px 16px 0 rgba(3, 169, 244, .04), 15px 17px 0 rgba(3, 169, 244, .04), 16px 18px 0 rgba(3, 169, 244, .04), 17px 19px 0 rgba(3, 169, 244, .04), 18px 20px 0 rgba(3, 169, 244, .04), 19px 21px 0 rgba(3, 169, 244, .04), 20px 22px 0 rgba(3, 169, 244, .04), 21px 23px 0 rgba(3, 169, 244, .04)
 }
 
 .ms-header.ms-header-primary .search-form label {
-    color: #fff
+    color: #3241C5
 }
 
 .ms-header.ms-header-primary .search-form label:before {
-    background-color: #fff
+    background-color: #3241C5
 }
 
 .ms-header.ms-header-primary .search-form label:hover {
-    color: #03a9f4
+    color: #3241C5
 }
 
 .ms-header.ms-header-primary .search-form .search-input {
