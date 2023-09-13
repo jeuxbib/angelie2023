@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.62.1",
+    "startbootstrap-full-width-pics": "^5.0.6"
+  }
+}
